@@ -1,0 +1,18 @@
+1
+	ZALEŻNOŚCI FUNKCYJNE :
+Id_produktu -> nazwa_produktu, cena_produktu, VAT
+data_zamowienia ->  id_produktu, ilosc
+cena_produktu ->  suma_netto, suma_brutto
+Id_klienta -> nazwa_klienta, data_zamowienia
+2
+	KLUCZE KANDYDUJĄCE :
+id_klienta + data_zamowienia
+3
+	ZALEŻNOŚCI FUNKCYJNE :
+id_pomieszczenia -> id_budynku,numer_pomieszczenia
+kod_pocztowy -> miasto, ulica
+id_budynku -> kod_pocztowy
+numer_pomieszczenia -> powierzchnia,liczba_okien,liczba_drzwi
+	KLUCZE KANDYDUJĄCE :
+id_budynku + numer_pomieszczenia
+
